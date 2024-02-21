@@ -105,3 +105,111 @@ main {
 main img {
   border-radius: 10px;
 }
+
+.animContent h1 {
+  animation-name: animate-from-top-H1;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 300ms;
+}
+
+@keyframes animate-from-top-H1 {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animContent p {
+  animation-name: animate-from-top-P;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 600ms;
+}
+
+@keyframes animate-from-top-P {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animContent button:first-of-type {
+  animation-name: animate-from-top-FB;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 800ms;
+}
+
+@keyframes animate-from-top-FB {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animContent button:nth-of-type(2) {
+  animation-name: animate-from-top-Bt2;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 900ms;
+}
+
+@keyframes animate-from-top-Bt2 {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animContent button:last-of-type {
+  animation-name: animate-from-top-BT3;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1000ms;
+}
+@keyframes animate-from-top-BT3 {
+  from {
+    opacity: 0;
+    translate: 0 -10px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.animContent img {
+  animation-name: animate-from-top-IMG;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 800ms;
+  width: 50%;
+}
+
+@keyframes animate-from-top-IMG {
+  from {
+    opacity: 0;
+    translate: 0 100%;
+  }
+  to {
+    opacity: 1;
+    translate: 60 20%;
+  }
+}
